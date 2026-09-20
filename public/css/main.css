@@ -1,0 +1,8 @@
+/**
+ * Stylesheet entry point. Layers are imported in cascade order: tokens first, then the
+ * application chrome, then the player, then the watch page layout.
+ */
+@import url('./tokens.css');
+@import url('./base.css');
+@import url('./player.css');
+@import url('./watch.css');

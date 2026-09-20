@@ -1,0 +1,278 @@
+{
+  "fed-warsh": {
+    "title": "Federal Funds Target Rate (%) vs. 10Y US Treasury Yield (%)",
+    "subtitle": "Verified 8-Week Series (FEDFUNDS: 4.75% | ^TNX: 5%)",
+    "xLabels": [
+      "Aug 03",
+      "Aug 10",
+      "Aug 17",
+      "Aug 24",
+      "Aug 31",
+      "Sep 07",
+      "Sep 14",
+      "Sep 18"
+    ],
+    "eventIndex": 6,
+    "annotation": "+25 bps • FEDFUNDS 4.75% | ^TNX 5%",
+    "seriesA": {
+      "name": "Federal Funds Target Rate (%)",
+      "unit": "%",
+      "color": "#e2ffa0",
+      "values": [
+        4.5,
+        4.5,
+        4.5,
+        4.5,
+        4.5,
+        4.5,
+        4.75,
+        4.75
+      ]
+    },
+    "seriesB": {
+      "name": "10Y US Treasury Yield (%)",
+      "unit": "%",
+      "color": "#38bdf8",
+      "values": [
+        4.66,
+        4.7,
+        4.74,
+        4.72,
+        4.78,
+        4.97,
+        5,
+        5
+      ]
+    }
+  },
+  "fed-followup": {
+    "title": "30Y Mortgage Spread (bps) vs. iShares Agency MBS ETF (MBB $)",
+    "subtitle": "Verified 8-Week Series (MBS-SPRD: 260 bps | MBB: $91.29)",
+    "xLabels": [
+      "Aug 03",
+      "Aug 10",
+      "Aug 17",
+      "Aug 24",
+      "Aug 31",
+      "Sep 07",
+      "Sep 14",
+      "Sep 18"
+    ],
+    "eventIndex": 6,
+    "annotation": "260 bps • MBS-SPRD 260 bps | MBB $91.29",
+    "seriesA": {
+      "name": "30Y Mortgage Spread (bps)",
+      "unit": " bps",
+      "color": "#e2ffa0",
+      "values": [
+        225,
+        230,
+        234,
+        238,
+        244,
+        252,
+        258,
+        260
+      ]
+    },
+    "seriesB": {
+      "name": "iShares Agency MBS ETF (MBB $)",
+      "unit": "$",
+      "color": "#38bdf8",
+      "values": [
+        93.27,
+        93.2,
+        93.12,
+        93.17,
+        92.72,
+        91.38,
+        91.29,
+        91.29
+      ]
+    }
+  },
+  "retail-sales": {
+    "title": "SPDR S&P Retail ETF (XRT $) vs. RBOB Gasoline Futures ($/gal)",
+    "subtitle": "Verified 8-Week Series (XRT: $82.03 | RB=F: $3.26)",
+    "xLabels": [
+      "Aug 03",
+      "Aug 10",
+      "Aug 17",
+      "Aug 24",
+      "Aug 31",
+      "Sep 07",
+      "Sep 14",
+      "Sep 18"
+    ],
+    "eventIndex": 6,
+    "annotation": "+0.9% • XRT $82.03 | RB=F $3.26",
+    "seriesA": {
+      "name": "SPDR S&P Retail ETF (XRT $)",
+      "unit": "$",
+      "color": "#e2ffa0",
+      "values": [
+        90.82,
+        88.95,
+        87.71,
+        86.89,
+        87.59,
+        84.79,
+        82.03,
+        82.03
+      ]
+    },
+    "seriesB": {
+      "name": "RBOB Gasoline Futures ($/gal)",
+      "unit": "$",
+      "color": "#38bdf8",
+      "values": [
+        2.99,
+        3.18,
+        3.35,
+        3.49,
+        3.21,
+        3.31,
+        3.53,
+        3.26
+      ]
+    }
+  },
+  "eu-canada": {
+    "title": "iShares MSCI Canada ETF (EWC $) vs. iShares Global Metals & Mining (PICK $)",
+    "subtitle": "Verified 8-Week Series (EWC: $60.22 | PICK: $61.8)",
+    "xLabels": [
+      "Aug 03",
+      "Aug 10",
+      "Aug 17",
+      "Aug 24",
+      "Aug 31",
+      "Sep 07",
+      "Sep 14",
+      "Sep 18"
+    ],
+    "eventIndex": 6,
+    "annotation": "EU-Canada Critical Minerals Offtake Corridor (EWC $60.22 | PICK $61.8)",
+    "seriesA": {
+      "name": "iShares MSCI Canada ETF (EWC $)",
+      "unit": "$",
+      "color": "#e2ffa0",
+      "values": [
+        61.3,
+        62.23,
+        62.36,
+        61.73,
+        62.04,
+        60.58,
+        60.22,
+        60.22
+      ]
+    },
+    "seriesB": {
+      "name": "iShares Global Metals & Mining (PICK $)",
+      "unit": "$",
+      "color": "#38bdf8",
+      "values": [
+        63.64,
+        62.04,
+        65.7,
+        65.76,
+        65.06,
+        63.35,
+        61.8,
+        61.8
+      ]
+    }
+  },
+  "wsj-ai": {
+    "title": "Enterprise AI Share of IT Budgets (%) vs. iShares Expanded Tech-Software (IGV $)",
+    "subtitle": "Verified 8-Week Series (AI-IT: 24% | IGV: $104.35)",
+    "xLabels": [
+      "Aug 03",
+      "Aug 10",
+      "Aug 17",
+      "Aug 24",
+      "Aug 31",
+      "Sep 07",
+      "Sep 14",
+      "Sep 18"
+    ],
+    "eventIndex": 6,
+    "annotation": "24% • AI-IT 24% | IGV $104.35",
+    "seriesA": {
+      "name": "Enterprise AI Share of IT Budgets (%)",
+      "unit": "%",
+      "color": "#e2ffa0",
+      "values": [
+        8,
+        10.2,
+        12.5,
+        15,
+        17.8,
+        20.4,
+        22.6,
+        24
+      ]
+    },
+    "seriesB": {
+      "name": "iShares Expanded Tech-Software (IGV $)",
+      "unit": "$",
+      "color": "#38bdf8",
+      "values": [
+        102.69,
+        104.08,
+        103.37,
+        109.5,
+        104.57,
+        101.52,
+        104.35,
+        104.35
+      ]
+    }
+  },
+  "ai-followup": {
+    "title": "TSMC Advanced Packaging (TSM $) vs. Broadcom Custom AI Silicon (AVGO $)",
+    "subtitle": "Verified 8-Week Series (TSM: $434.67 | AVGO: $357.61)",
+    "xLabels": [
+      "Aug 03",
+      "Aug 10",
+      "Aug 17",
+      "Aug 24",
+      "Aug 31",
+      "Sep 07",
+      "Sep 14",
+      "Sep 18"
+    ],
+    "eventIndex": 6,
+    "annotation": "10x • TSM $434.67 | AVGO $357.61",
+    "seriesA": {
+      "name": "TSMC Advanced Packaging (TSM $)",
+      "unit": "$",
+      "color": "#e2ffa0",
+      "values": [
+        420.04,
+        426.35,
+        418.95,
+        417.52,
+        428.91,
+        433.24,
+        434.67,
+        434.67
+      ]
+    },
+    "seriesB": {
+      "name": "Broadcom Custom AI Silicon (AVGO $)",
+      "unit": "$",
+      "color": "#38bdf8",
+      "values": [
+        427.76,
+        392.99,
+        368.45,
+        368.79,
+        357.9,
+        361.99,
+        357.61,
+        357.61
+      ]
+    }
+  }
+}

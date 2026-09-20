@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catalyst Reel — Short Financial Video Stories</title>
+  <meta name="description" content="Watch 15-second and 30-second financial news videos with real Yahoo Finance market charts and a continuous video playlist." />
+  <link rel="icon" type="image/svg+xml" href="/images/catalyst-logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/main.css" />
+</head>
+<body>
+  <!-- Authentic https://catalyst.app/ Fixed Background Layer -->
+  <div class="catalyst-fixed-bg" aria-hidden="true"></div>
+
+  <div class="app-shell">
+    <!-- Top Bar: Brand + 15s/30s Clip Selector + Search/Generate CTA -->
+    <header class="topbar" id="app-topbar">
+      <a class="brand-group" href="/" aria-label="Catalyst">
+        <img class="brand-logo" src="/images/catalyst-logo.svg" alt="Catalyst" width="30" height="30" />
+      </a>
+
+      <!-- 15s (Default) / 30s Clip Duration Selector -->
+      <div class="duration-selector" role="group" aria-label="Select Clip Length">
+        <span class="duration-label">CLIP</span>
+        <button type="button" class="duration-btn active" id="dur-15-btn" data-duration="15">15s</button>
+        <button type="button" class="duration-btn" id="dur-30-btn" data-duration="30">30s</button>
+      </div>
+
+      <!-- Search / Paste Headline or Link Input + Primary CTA -->
+      <form id="headline-form" class="search-form">
+        <input
+          type="text"
+          id="headline-input"
+          class="search-input"
+          placeholder="Paste a news headline or article link to generate a video..."
+          autocomplete="off"
+          required
+        />
+        <button type="button" id="clear-input-btn" class="clear-btn" title="Clear">Clear</button>
+        <button type="submit" id="generate-main-btn" class="cta-primary-btn">
+          <span id="generate-btn-label">Generate 15s Video</span>
+        </button>
+      </form>
+    </header>
+
+    <!-- YouTube-Style Two-Column Watch Layout:
+         LEFT = Unobstructed Video Player + Controls, Captions, Story & Real Yahoo Finance Chart Underneath
+         RIGHT = Continuous Autoplay Playlist Queue -->
+    <main class="yt-watch-layout">
+      <!-- LEFT COLUMN: Unobstructed Video Player + All Content Underneath -->
+      <section class="yt-primary-col" aria-label="Current Video and Story Details">
+        <!-- 1. Pure Unobstructed Video Player (Zero HTML Overlays on Video) -->
+        <div class="video-player-wrap">
+          <div class="video-viewport aspect-16-9" id="video-viewport">
+            <video
+              id="explainer-video"
+              class="explainer-video"
+              playsinline
+              preload="auto"
+            ></video>
+
+            <canvas id="live-storyboard-canvas" class="storyboard-canvas hidden"></canvas>
+
+            <div class="fal-render-banner hidden" id="fal-render-banner">
+              <div class="render-spinner"></div>
+              <div class="render-banner-copy">
+                <div class="render-banner-title">
+                  <span id="render-stage-title">Generating Video &amp; Newscaster Audio on fal.ai...</span>
+                  <span class="render-timer" id="render-timer">0.0s</span>
+                </div>
+                <div class="render-progress-track">
+                  <div class="render-progress-fill" id="render-progress-fill"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Video Transport Controls & Synchronized Caption Moved Directly BELOW the Video -->
+        <div class="below-video-controls-bar">
+          <button type="button" id="play-pause-btn" class="transport-play-btn" data-state="playing" aria-label="Pause">
+            <svg class="icon-pause" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <rect x="6" y="5" width="4" height="14" rx="1"></rect>
+              <rect x="14" y="5" width="4" height="14" rx="1"></rect>
+            </svg>
+            <svg class="icon-play" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M8 5.2v13.6a1 1 0 0 0 1.53.85l10.6-6.8a1 1 0 0 0 0-1.7L9.53 4.35A1 1 0 0 0 8 5.2z"></path>
+            </svg>
+          </button>
+          <button type="button" id="next-playlist-btn" class="transport-replay-btn" title="Play Next Video in Playlist">
+            Next &rarr;
+          </button>
+          <button type="button" id="replay-narration-btn" class="transport-replay-btn">
+            Replay
+          </button>
+          <button type="button" id="regenerate-video-btn" class="transport-replay-btn"
+                  title="Render this story again from scratch">
+            <svg class="icon-regenerate" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M20 12a8 8 0 1 1-2.34-5.66"></path>
+              <polyline points="20 4 20 9 15 9"></polyline>
+            </svg>
+            <span id="regenerate-btn-label">Regenerate</span>
+          </button>
+          <div class="scrub-track-wrap" id="scrub-track-wrap">
+            <div class="scrub-progress" id="scrub-progress"></div>
+          </div>
+          <span class="transport-time" id="transport-time">00:00 / 00:15</span>
+          <button type="button" id="voiceover-toggle-btn" class="sound-pill-btn active">
+            Sound On
+          </button>
+          <button type="button" id="aspect-toggle-btn" class="glass-pill-btn">
+            <span id="aspect-toggle-label">9:16 Vertical</span>
+          </button>
+        </div>
+
+        <!-- Synchronized Newscaster Caption Bar (Below Video) -->
+        <div class="below-video-caption-strip" id="broadcast-hud">
+          <span class="caption-live-label">TRANSCRIPT</span>
+          <p class="kinetic-caption-text" id="kinetic-caption-text"></p>
+        </div>
+
+        <!-- 3. Current Video Headline, Summary, Real Yahoo Finance Chart & Follow-Up Questions -->
+        <div class="yt-below-video-content">
+          <div class="takeaway-header">
+            <div class="source-photo-badge" id="source-photo-card">
+              <img id="source-photo-img" src="/images/source-fed-warsh.jpg" alt="Source Photo" class="source-photo-thumb" />
+              <span class="source-photo-tag" id="regime-verdict-badge">VERIFIED SOURCE PHOTOS</span>
+            </div>
+            <span class="duration-pill-badge" id="active-duration-badge">15s Clip</span>
+          </div>
+
+          <h1 class="consumer-headline" id="thesis-headline"></h1>
+          <p class="consumer-summary" id="thesis-body"></p>
+
+          <!-- Real Yahoo Finance Market Data Chart (Below Video) -->
+          <div class="compact-chart-block" id="interactive-chart-panel">
+            <div class="compact-chart-header">
+              <div>
+                <span class="cta-step-badge">REAL MARKET DATA (YAHOO FINANCE)</span>
+                <div class="chart-title-text" id="chart-title"></div>
+              </div>
+              <div class="chart-legend">
+                <span class="legend-item">
+                  <span class="legend-swatch" id="legend-swatch-a"></span>
+                  <span id="legend-label-a">Series 1</span>
+                </span>
+                <span class="legend-item">
+                  <span class="legend-swatch" id="legend-swatch-b"></span>
+                  <span id="legend-label-b">Series 2</span>
+                </span>
+              </div>
+            </div>
+            <div class="chart-canvas-container">
+              <canvas id="market-chart-canvas" class="market-chart-canvas" width="760" height="195"></canvas>
+            </div>
+          </div>
+
+          <!-- Follow-Up Clips Related to This Video -->
+          <div class="below-video-followups">
+            <span class="cta-step-badge">FOLLOW-UP QUESTIONS FOR THIS STORY</span>
+            <div class="suggested-followups-list" id="suggested-followups-list"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- RIGHT COLUMN: Continuous Autoplay Playlist Queue -->
+      <aside class="yt-related-col" id="rss-feed-panel" aria-label="Video Playlist Queue">
+        <div class="yt-related-header">
+          <div>
+            <span class="cta-step-badge" id="playlist-status-counter">PLAYLIST QUEUE • 1 / 6 • AUTOPLAY ON</span>
+            <h2 class="card-title">Up Next in Playlist</h2>
+          </div>
+          <div class="chart-mode-tabs" id="rss-filter-tabs">
+            <button type="button" class="chart-tab-btn active" data-rss-filter="all">All</button>
+            <button type="button" class="chart-tab-btn" data-rss-filter="WSJ">WSJ</button>
+            <button type="button" class="chart-tab-btn" data-rss-filter="Bloomberg">Bloomberg</button>
+          </div>
+        </div>
+
+        <!-- Numbered Playlist Video Thumbnail Feed -->
+        <div class="yt-thumbnail-feed" id="rss-stories-list">
+          <div class="rss-loading-state">Loading playlist...</div>
+        </div>
+      </aside>
+    </main>
+
+    <!-- Hidden compatibility stubs -->
+    <div class="hidden">
+      <div id="scene-acts-bar"></div>
+      <canvas id="in-video-graphics-canvas"></canvas>
+      <button id="chart-overlay-mode-btn"></button>
+      <span id="source-photo-tag-label"></span>
+      <span id="source-photo-caption"></span>
+      <div id="presets-container"></div>
+      <div id="thread-nodes-container"></div>
+      <button id="reset-thread-btn"></button>
+      <button id="toggle-rss-drawer-btn"></button>
+      <button id="open-prompt-modal-btn"></button>
+      <button id="close-prompt-modal-btn"></button>
+      <div id="prompt-modal-backdrop"></div>
+      <select id="video-model-select"></select>
+      <p id="anchor-script-text"></p>
+      <p id="layer-metaphor-text"></p>
+      <p id="layer-camera-text"></p>
+      <p id="layer-lighting-text"></p>
+      <p id="layer-motion-text"></p>
+      <textarea id="compiled-prompt-textarea"></textarea>
+      <span id="prompt-telemetry"></span>
+      <button id="copy-prompt-btn"></button>
+      <button id="reshoot-video-btn"></button>
+      <span id="hud-category-text"></span>
+      <span id="player-source-type"></span>
+      <div id="hud-ticker-strip"></div>
+      <span id="episode-counter-tag"></span>
+      <p id="chart-subtitle"></p>
+      <button id="tab-trajectory-btn"></button>
+      <button id="tab-quadrant-btn"></button>
+      <input id="shock-multiplier-slider" value="1.0" />
+      <strong id="shock-multiplier-val"></strong>
+      <span id="chart-annotation-pill"></span>
+      <span id="chart-hover-readout"></span>
+      <form id="followup-form"><input id="followup-input" /><button id="followup-submit-btn"></button></form>
+      <div id="asset-matrix-list"></div>
+      <div id="causal-chain-grid"></div>
+      <div id="concepts-grid"></div>
+      <span id="api-status-text"></span>
+      <span id="player-episode-pill"></span>
+      <span id="hud-model-watermark"></span>
+      <span id="sentiment-score-value"></span>
+      <span id="negative-guardrail-pill"></span>
+      <span id="tts-engine-badge"></span>
+      <span id="script-meta-info"></span>
+      <button id="hud-toggle-btn"></button>
+      <button id="toggle-prompt-layers-btn"></button>
+    </div>
+  </div>
+
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>
