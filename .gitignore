@@ -1,0 +1,24 @@
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies & OS artifacts
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+
+# Runtime intermediate processing files inside cache/
+cache/**/tmp-*
+cache/**/raw-*
+cache/**/silent*
+cache/**/motion-*
+cache/**/kenburns-*
+cache/**/stitched*
+cache/**/story*
+
+cache/**/source-*
+cache/**/gemini-*
+cache/**/veo-*

@@ -1,0 +1,1130 @@
+{
+  "Wall Street Banks Prepare to Sell Billions of Dollars of X Loans": {
+    "thumbUrl": "/cache/images/thumb-rss-0.jpg?v=1789879590767",
+    "explainer": {
+      "id": "rss-0",
+      "inputHeadline": "Wall Street Banks Prepare to Sell Billions of Dollars of X Loans",
+      "videoUrl": "/cache/videos/rss-0-15s.mp4?v=1789884747858",
+      "audioUrl": "/cache/audio/rss-0-15s.mp3?v=1789884747858",
+      "sourceImageUrl": "/cache/images/thumb-rss-0.jpg?v=1789879590767",
+      "usedRssSourceImage": true,
+      "sourceImageCaption": "WSJ RSS Feed Image",
+      "ttsModelUsed": "ElevenLabs Turbo v2.5 (15s Post-Video Narration)",
+      "videoModelUsed": "Alternating Animated Still Images + Ken Burns Zoom-Ins (15s)",
+      "durationSec": 15,
+      "resolution": "1920x1080 (16:9 / 15.0s)",
+      "sourceType": "WSJ RSS Story",
+      "categoryBadge": "DEBT MARKETS",
+      "sentiment": "90 CENTS TARGET",
+      "sentimentScore": 0.4,
+      "headlineTitle": "Wall Street Banks Seek 90 Cents On Dollar Selling X Debt",
+      "executiveThesis": "Wall Street lenders are testing investor appetite to offload billions in hung loans originally issued to finance the buyout of X. Clearing this stalled corporate paper at a mild discount will free up bank capital after months of balance sheet gridlock.",
+      "narrationScript": "Wall Street banks led by Morgan Stanley and Bank of America are preparing to sell portions of the 13 billion dollar debt package backing Elon Musk’s buyout of social network X. Senior lenders aim to offload the leveraged loans between 90 and 95 cents on the dollar.",
+      "scenes": [
+        {
+          "act": "PART 1 / THE STORY",
+          "title": "What Happened",
+          "overlayType": "CATALYST_CARD",
+          "prompt": "Modern glass corporate headquarters of a major investment bank in lower Manhattan under daylight, broadcast news B-roll shot on 35mm camera, 4k."
+        },
+        {
+          "act": "PART 2 / THE DATA",
+          "title": "The Key Numbers",
+          "overlayType": "LIVE_CHART",
+          "prompt": "Fixed income trading floor screens displaying loan discount figures and yield spreads in bright natural office lighting, documentary photojournalism style, 4k."
+        },
+        {
+          "act": "PART 3 / IMPACT",
+          "title": "Why It Matters",
+          "overlayType": "ASSET_SCORECARD",
+          "prompt": "Financial analysts conferring around a trading terminal inside a corporate investment boardroom, realistic photojournalistic news footage, 4k."
+        }
+      ],
+      "captions": [
+        {
+          "start": 0,
+          "end": 5,
+          "text": "MORGAN STANLEY & BANK OF AMERICA PREPARE $13B X LOAN SALE",
+          "highlight": "$13B"
+        },
+        {
+          "start": 5,
+          "end": 10,
+          "text": "LENDERS TARGET 90 TO 95 CENTS ON THE DOLLAR",
+          "highlight": "90 TO 95 CENTS"
+        },
+        {
+          "start": 10,
+          "end": 15,
+          "text": "BANKS MOVE TO CLEAR 2022 TWITTER BUYOUT EXPOSURE",
+          "highlight": "BUYOUT EXPOSURE"
+        }
+      ],
+      "followUps": [
+        {
+          "id": "fu-1",
+          "question": "Which institutional funds are bidding on discounted syndicated debt?",
+          "badge": "Watch Next"
+        },
+        {
+          "id": "fu-2",
+          "question": "How will real-economy lending capacity shift once this debt clears?",
+          "badge": "Watch Next"
+        }
+      ],
+      "chartData": null,
+      "videoUrl15": "/cache/videos/rss-0-15s.mp4?v=1789884747858",
+      "audioUrl15": "/cache/audio/rss-0-15s.mp3?v=1789884747858"
+    }
+  },
+  "Canada to Provide $720 Million to Canada Post to Avoid Insolvency at Mail Service": {
+    "thumbUrl": "/cache/images/thumb-rss-1.jpg?v=1789879609918",
+    "explainer": {
+      "id": "rss-1",
+      "inputHeadline": "Canada to Provide $720 Million to Canada Post to Avoid Insolvency at Mail Service",
+      "videoUrl": "/cache/videos/rss-1-15s.mp4?v=1789884762509",
+      "audioUrl": "/cache/audio/rss-1-15s.mp3?v=1789884762509",
+      "sourceImageUrl": "/cache/images/thumb-rss-1.jpg?v=1789879609918",
+      "usedRssSourceImage": true,
+      "sourceImageCaption": "WSJ RSS Feed Image",
+      "ttsModelUsed": "ElevenLabs Turbo v2.5 (15s Post-Video Narration)",
+      "videoModelUsed": "Alternating Animated Still Images + Ken Burns Zoom-Ins (15s)",
+      "durationSec": 15,
+      "resolution": "1920x1080 (16:9 / 15.0s)",
+      "sourceType": "WSJ RSS Story",
+      "categoryBadge": "POSTAL FINANCE",
+      "sentiment": "GOVERNMENT RESCUE DEPLOYED",
+      "sentimentScore": 0.5,
+      "headlineTitle": "Canada Pledges 720 Million Dollars to Canada Post to Avoid Mail Insolvency",
+      "executiveThesis": "The Canadian government has arranged seven hundred twenty million dollars in emergency financing to prevent its national postal service from lapsing into insolvency. This intervention provides immediate liquidity to sustain operations while officials address persistent delivery deficits.",
+      "narrationScript": "The Canadian federal government in Ottawa is providing 720 million Canadian dollars in short-term repayable financing to Canada Post to prevent insolvency. Officials warned the state-owned mail carrier would exhaust its cash reserves by mid-year without the emergency bridge loan.",
+      "scenes": [
+        {
+          "act": "PART 1 / THE STORY",
+          "title": "What Happened",
+          "overlayType": "CATALYST_CARD",
+          "prompt": "Canada Post delivery trucks parked in a sorting depot under grey morning daylight, 35mm ENG broadcast camera, photojournalism, 4k."
+        },
+        {
+          "act": "PART 2 / THE DATA",
+          "title": "The Key Numbers",
+          "overlayType": "LIVE_CHART",
+          "prompt": "Automated postal sorting facility with packages moving along conveyor belts under industrial lights, documentary b-roll, 4k."
+        },
+        {
+          "act": "PART 3 / IMPACT",
+          "title": "Why It Matters",
+          "overlayType": "ASSET_SCORECARD",
+          "prompt": "Trading desks displaying market indices and government bond yields in natural daylight, 35mm ENG broadcast camera, 4k."
+        }
+      ],
+      "captions": [
+        {
+          "start": 0,
+          "end": 5,
+          "text": "OTTAWA COMMITS $720 MILLION BRIDGE LOAN TO CANADA POST",
+          "highlight": "$720 MILLION"
+        },
+        {
+          "start": 5,
+          "end": 10,
+          "text": "EMERGENCY FINANCING PREVENTS STATE MAIL INSOLVENCY",
+          "highlight": "INSOLVENCY"
+        },
+        {
+          "start": 10,
+          "end": 15,
+          "text": "REPAYABLE LIQUIDITY BACKSTOPS POSTAL OPERATIONS",
+          "highlight": "LIQUIDITY"
+        }
+      ],
+      "followUps": [
+        {
+          "id": "fu-1",
+          "question": "What operational overhauls are required under Canada Post's bailout terms?",
+          "badge": "Watch Next"
+        },
+        {
+          "id": "fu-2",
+          "question": "How do parcel delivery losses compare with private logistics competitors?",
+          "badge": "Watch Next"
+        }
+      ],
+      "chartData": null,
+      "videoUrl15": "/cache/videos/rss-1-15s.mp4?v=1789884762509",
+      "audioUrl15": "/cache/audio/rss-1-15s.mp3?v=1789884762509"
+    }
+  },
+  "Amazon Willing to Discuss Quebec Shutdown With Canadian Officials": {
+    "thumbUrl": "/cache/images/thumb-rss-2.jpg?v=1789879691576",
+    "explainer": {
+      "id": "rss-2",
+      "inputHeadline": "Amazon Willing to Discuss Quebec Shutdown With Canadian Officials",
+      "videoUrl": "/cache/videos/rss-2-15s.mp4?v=1789884778076",
+      "audioUrl": "/cache/audio/rss-2-15s.mp3?v=1789884778076",
+      "sourceImageUrl": "/cache/images/thumb-rss-2.jpg?v=1789879691576",
+      "usedRssSourceImage": true,
+      "sourceImageCaption": "WSJ RSS Feed Image",
+      "ttsModelUsed": "ElevenLabs Turbo v2.5 (15s Post-Video Narration)",
+      "videoModelUsed": "Alternating Animated Still Images + Ken Burns Zoom-Ins (15s)",
+      "durationSec": 15,
+      "resolution": "1920x1080 (16:9 / 15.0s)",
+      "sourceType": "WSJ RSS Story",
+      "categoryBadge": "LABOR DISPUTE",
+      "sentiment": "1,700 JOBS CUT",
+      "sentimentScore": -0.8,
+      "headlineTitle": "Amazon Enters Talks Over Planned Quebec Shutdown Risking 1,700 Logistics Jobs",
+      "executiveThesis": "Amazon has agreed to open discussions with Canadian and Quebec officials regarding its planned provincial shutdown affecting 1,700 workers. The move highlights escalating friction between regional labor interests and corporate fulfillment network reorganizations.",
+      "narrationScript": "Amazon agreed to discuss its decision to shutter all seven fulfillment warehouses in Quebec with Canadian federal officials in Ottawa. The warehouse closures eliminate approximately 1,700 permanent jobs and 250 seasonal positions as Amazon transitions local delivery to third-party contractors.",
+      "scenes": [
+        {
+          "act": "PART 1 / THE STORY",
+          "title": "What Happened",
+          "overlayType": "CATALYST_CARD",
+          "prompt": "Exterior shot of an Amazon distribution warehouse in Quebec in overcast daylight, delivery vans parked in rows, photojournalism broadcast footage, 4k."
+        },
+        {
+          "act": "PART 2 / THE DATA",
+          "title": "The Key Numbers",
+          "overlayType": "LIVE_CHART",
+          "prompt": "Government administrative building in Quebec City during the day, civil servants and officials walking into negotiations, television news broadcast style, 4k."
+        },
+        {
+          "act": "PART 3 / IMPACT",
+          "title": "Why It Matters",
+          "overlayType": "ASSET_SCORECARD",
+          "prompt": "Trading floor monitors showing financial indicators and market charts under clean office lighting, documentary news camera, 4k."
+        }
+      ],
+      "captions": [
+        {
+          "start": 0,
+          "end": 5,
+          "text": "AMAZON MEETS CANADIAN OFFICIALS OVER 7 QUEBEC WAREHOUSES",
+          "highlight": "7 QUEBEC WAREHOUSES"
+        },
+        {
+          "start": 5,
+          "end": 10,
+          "text": "SHUTDOWN AFFECTS 1,700 PERMANENT LOGISTICS WORKERS",
+          "highlight": "1,700"
+        },
+        {
+          "start": 10,
+          "end": 15,
+          "text": "DELIVERY SHIFTS TO THIRD-PARTY CONTRACT CARRIERS",
+          "highlight": "THIRD-PARTY"
+        }
+      ],
+      "followUps": [
+        {
+          "id": "fu-1",
+          "question": "Could talks with Quebec officials reverse Amazon's planned closure?",
+          "badge": "Watch Next"
+        },
+        {
+          "id": "fu-2",
+          "question": "How do logistics restructurings impact broader retail margins?",
+          "badge": "Watch Next"
+        }
+      ],
+      "chartData": null,
+      "videoUrl15": "/cache/videos/rss-2-15s.mp4?v=1789884778076",
+      "audioUrl15": "/cache/audio/rss-2-15s.mp3?v=1789884778076"
+    }
+  },
+  "Target Drops DEI Goals and Ends Program to Boost Black Suppliers": {
+    "thumbUrl": "/cache/images/thumb-rss-3.jpg?v=1789879682463",
+    "explainer": {
+      "id": "rss-3",
+      "inputHeadline": "Target Drops DEI Goals and Ends Program to Boost Black Suppliers",
+      "videoUrl": "/cache/videos/rss-3-15s.mp4?v=1789884792839",
+      "audioUrl": "/cache/audio/rss-3-15s.mp3?v=1789884792839",
+      "sourceImageUrl": "/cache/images/thumb-rss-3.jpg?v=1789879682463",
+      "usedRssSourceImage": true,
+      "sourceImageCaption": "WSJ RSS Feed Image",
+      "ttsModelUsed": "ElevenLabs Turbo v2.5 (15s Post-Video Narration)",
+      "videoModelUsed": "Alternating Animated Still Images + Ken Burns Zoom-Ins (15s)",
+      "durationSec": 15,
+      "resolution": "1920x1080 (16:9 / 15.0s)",
+      "sourceType": "WSJ RSS Story",
+      "categoryBadge": "RETAIL STRATEGY",
+      "sentiment": "SUPPLIER RESET",
+      "sentimentScore": -1.2,
+      "headlineTitle": "Target Ends Supplier Diversity Push as S&P ETF Slips 1.5 Percent",
+      "executiveThesis": "Target is eliminating internal diversity benchmarks and ending dedicated procurement programs for Black suppliers amid a nationwide corporate policy retreat. The strategic reversal arrives as broader equity indexes decline, with retail leaders adjusting operational postures.",
+      "narrationScript": "Target Corporation announced in Minneapolis that it is concluding its three-year diversity, equity, and inclusion goals and ending its racial equity program for Black and minority suppliers. The retailer is also withdrawing from external diversity surveys following shifts by Walmart and Amazon.",
+      "scenes": [
+        {
+          "act": "PART 1 / THE STORY",
+          "title": "Policy Reversal",
+          "overlayType": "CATALYST_CARD",
+          "prompt": "Exterior establishing shot of a modern Target retail store entrance with shoppers entering in natural daylight, 35mm ENG broadcast camera, photojournalism, 4k."
+        },
+        {
+          "act": "PART 2 / THE DATA",
+          "title": "Index Pullback",
+          "overlayType": "LIVE_CHART",
+          "prompt": "Professional financial trading room with monitors displaying market charts and equity price feeds in clear daylight, 4k."
+        },
+        {
+          "act": "PART 3 / IMPACT",
+          "title": "Supply Chain Pivot",
+          "overlayType": "ASSET_SCORECARD",
+          "prompt": "Logistics distribution center interior with merchandise pallets and forklifts moving inventory under warehouse lighting, 35mm ENG broadcast camera, 4k."
+        }
+      ],
+      "captions": [
+        {
+          "start": 0,
+          "end": 5,
+          "text": "TARGET CONCLUDES THREE-YEAR DEI & SUPPLIER GOALS",
+          "highlight": "THREE-YEAR"
+        },
+        {
+          "start": 5,
+          "end": 10,
+          "text": "RETAILER ENDS MINORITY SUPPLIER ACCELERATOR PROGRAM",
+          "highlight": "SUPPLIER PROGRAM"
+        },
+        {
+          "start": 10,
+          "end": 15,
+          "text": "FOLLOWS SIMILAR POLICY ROLLBACKS AT WALMART & AMAZON",
+          "highlight": "POLICY ROLLBACKS"
+        }
+      ],
+      "followUps": [
+        {
+          "id": "fu-1",
+          "question": "How will vendor procurement costs change following Target's supplier policy shift?",
+          "badge": "Watch Next"
+        },
+        {
+          "id": "fu-2",
+          "question": "Which other large retail chains are rolling back corporate diversity commitments?",
+          "badge": "Watch Next"
+        }
+      ],
+      "chartData": null,
+      "videoUrl15": "/cache/videos/rss-3-15s.mp4?v=1789884792839",
+      "audioUrl15": "/cache/audio/rss-3-15s.mp3?v=1789884792839"
+    }
+  },
+  "Energy & Utilities Roundup: Market Talk": {
+    "thumbUrl": "/cache/images/thumb-rss-4.jpg?v=1789879760811",
+    "explainer": {
+      "id": "rss-4",
+      "inputHeadline": "Energy & Utilities Roundup: Market Talk",
+      "videoUrl": "/cache/videos/rss-4-15s.mp4?v=1789884809884",
+      "audioUrl": "/cache/audio/rss-4-15s.mp3?v=1789884809884",
+      "sourceImageUrl": "/cache/images/thumb-rss-4.jpg?v=1789879760811",
+      "usedRssSourceImage": true,
+      "sourceImageCaption": "WSJ RSS Feed Image",
+      "ttsModelUsed": "ElevenLabs Turbo v2.5 (15s Post-Video Narration)",
+      "videoModelUsed": "Alternating Animated Still Images + Ken Burns Zoom-Ins (15s)",
+      "durationSec": 15,
+      "resolution": "1920x1080 (16:9 / 15.0s)",
+      "sourceType": "WSJ RSS Story",
+      "categoryBadge": "ENERGY MARKETS",
+      "sentiment": "CRUDE RALLIES 22.9%",
+      "sentimentScore": 1.5,
+      "headlineTitle": "Crude Oil Jumps 22.9 Percent As Global Energy Producers Lift Market Benchmarks",
+      "executiveThesis": "West Texas Intermediate crude surged nearly twenty-three percent to cross ninety-six dollars per barrel, altering margins across the utility and energy sectors. Global operators like Cnooc navigate higher baseline feedstock costs while downstream retail indices absorb mounting margin pressures.",
+      "narrationScript": "Wall Street Journal Market Talk covers major shifts across power and oil producers as the Energy Select Sector SPDR ETF trades at 64.31 dollars. Meanwhile, rising data-center electricity demand keeps the Utilities Select Sector SPDR ETF at 41.1 dollars.",
+      "scenes": [
+        {
+          "act": "PART 1 / THE STORY",
+          "title": "What Happened",
+          "overlayType": "CATALYST_CARD",
+          "prompt": "Offshore drilling rig platform operating in open ocean water under bright daytime sky, filmed on 35mm broadcast camera, 4k photojournalism."
+        },
+        {
+          "act": "PART 2 / THE DATA",
+          "title": "The Key Numbers",
+          "overlayType": "LIVE_CHART",
+          "prompt": "Financial trading room monitors displaying petroleum price charts and energy benchmark graphs in clean daylight, 4k broadcast resolution."
+        },
+        {
+          "act": "PART 3 / IMPACT",
+          "title": "Why It Matters",
+          "overlayType": "ASSET_SCORECARD",
+          "prompt": "Commercial fuel distribution terminal with pipelines and storage tanks under natural daylight, realistic documentary style, 4k."
+        }
+      ],
+      "captions": [
+        {
+          "start": 0,
+          "end": 5,
+          "text": "ENERGY SELECT SECTOR SPDR (XLE) TRADES AT $64.31",
+          "highlight": "$64.31"
+        },
+        {
+          "start": 5,
+          "end": 10,
+          "text": "UTILITIES SELECT SECTOR SPDR (XLU) AT $41.1",
+          "highlight": "$41.1"
+        },
+        {
+          "start": 10,
+          "end": 15,
+          "text": "GRID POWER DEMAND & OIL PRODUCERS DRIVE SECTOR FLOWS",
+          "highlight": "GRID POWER"
+        }
+      ],
+      "followUps": [
+        {
+          "id": "fu-1",
+          "question": "How do rising crude costs affect downstream retail operating margins?",
+          "badge": "Watch Next"
+        },
+        {
+          "id": "fu-2",
+          "question": "Will international oil producers like Cnooc boost capital expenditure this quarter?",
+          "badge": "Watch Next"
+        }
+      ],
+      "chartData": {
+        "title": "Energy Select Sector SPDR (XLE $) vs. Utilities Select Sector SPDR (XLU $)",
+        "subtitle": "Verified 8-Week Series (XLE: $64.31 | XLU: $41.1)",
+        "xLabels": [
+          "Aug 03",
+          "Aug 10",
+          "Aug 17",
+          "Aug 24",
+          "Aug 31",
+          "Sep 07",
+          "Sep 14",
+          "Sep 18"
+        ],
+        "eventIndex": 6,
+        "annotation": "US Energy (XLE) vs. Power Utilities (XLU) (XLE $64.31 | XLU $41.1)",
+        "seriesA": {
+          "name": "Energy Select Sector SPDR (XLE $)",
+          "unit": "$",
+          "color": "#e2ffa0",
+          "values": [
+            57.5,
+            61.91,
+            63.64,
+            62.68,
+            64.06,
+            65.14,
+            64.31,
+            64.31
+          ]
+        },
+        "seriesB": {
+          "name": "Utilities Select Sector SPDR (XLU $)",
+          "unit": "$",
+          "color": "#38bdf8",
+          "values": [
+            43.61,
+            44.31,
+            42.77,
+            42.73,
+            43.08,
+            42.39,
+            41.1,
+            41.1
+          ]
+        }
+      },
+      "videoUrl15": "/cache/videos/rss-4-15s.mp4?v=1789884809884",
+      "audioUrl15": "/cache/audio/rss-4-15s.mp3?v=1789884809884"
+    }
+  },
+  "Basic Materials Roundup: Market Talk": {
+    "thumbUrl": "/cache/images/thumb-rss-5.jpg?v=1789879772774",
+    "explainer": {
+      "id": "rss-5",
+      "inputHeadline": "Basic Materials Roundup: Market Talk",
+      "videoUrl": "/cache/videos/rss-5-15s.mp4?v=1789884825866",
+      "audioUrl": "/cache/audio/rss-5-15s.mp3?v=1789884825866",
+      "sourceImageUrl": "/cache/images/thumb-rss-5.jpg?v=1789879772774",
+      "usedRssSourceImage": true,
+      "sourceImageCaption": "WSJ RSS Feed Image",
+      "ttsModelUsed": "ElevenLabs Turbo v2.5 (15s Post-Video Narration)",
+      "videoModelUsed": "Alternating Animated Still Images + Ken Burns Zoom-Ins (15s)",
+      "durationSec": 15,
+      "resolution": "1920x1080 (16:9 / 15.0s)",
+      "sourceType": "WSJ RSS Story",
+      "categoryBadge": "BASIC MATERIALS",
+      "sentiment": "YIELDS AT 5%",
+      "sentimentScore": -0.6,
+      "headlineTitle": "Rio Tinto Faces Margin Pressure as Ten Year Treasury Yield Hits 5 Percent",
+      "executiveThesis": "Rising capital costs are squeezing valuations across capital-intensive basic materials producers like Rio Tinto. Sustained benchmark interest rates at five percent continue to weigh on broader industrial equity performance.",
+      "narrationScript": "Global mining and industrial producers led by Rio Tinto adjust capital budgets as the Materials Select Sector ETF trades at 49.99 dollars. At the same time, COMEX High-Grade Copper futures settled at 6.69 dollars per pound across commodity desks.",
+      "scenes": [
+        {
+          "act": "PART 1 / THE STORY",
+          "title": "What Happened",
+          "overlayType": "CATALYST_CARD",
+          "prompt": "Vast open-pit copper and iron ore mine operated by heavy machinery under midday sun, telephoto broadcast camera shot, photojournalism, 4k."
+        },
+        {
+          "act": "PART 2 / THE DATA",
+          "title": "The Key Numbers",
+          "overlayType": "LIVE_CHART",
+          "prompt": "Trading desks displaying bond yield charts and commodity price trends, soft ambient office lighting, professional documentary 4k footage."
+        },
+        {
+          "act": "PART 3 / IMPACT",
+          "title": "Why It Matters",
+          "overlayType": "ASSET_SCORECARD",
+          "prompt": "Freight cargo trains hauling refined metals and industrial minerals along a desert rail corridor, cinematic documentary shot, 35mm lens, 4k."
+        }
+      ],
+      "captions": [
+        {
+          "start": 0,
+          "end": 5,
+          "text": "MATERIALS SELECT SECTOR ETF (XLB) AT $49.99",
+          "highlight": "$49.99"
+        },
+        {
+          "start": 5,
+          "end": 10,
+          "text": "COMEX HIGH-GRADE COPPER FUTURES AT $6.69/LB",
+          "highlight": "$6.69"
+        },
+        {
+          "start": 10,
+          "end": 15,
+          "text": "RIO TINTO & MINERS WEIGH INDUSTRIAL METALS DEMAND",
+          "highlight": "RIO TINTO"
+        }
+      ],
+      "followUps": [
+        {
+          "id": "fu-1",
+          "question": "How do higher borrowing costs alter Rio Tinto's capital expenditure plans?",
+          "badge": "Watch Next"
+        },
+        {
+          "id": "fu-2",
+          "question": "Could sustained five percent Treasury yields further depress industrial equities?",
+          "badge": "Watch Next"
+        }
+      ],
+      "chartData": {
+        "title": "Materials Select Sector ETF (XLB $) vs. COMEX High-Grade Copper ($/lb)",
+        "subtitle": "Verified 8-Week Series (XLB: $49.99 | HG=F: $6.69)",
+        "xLabels": [
+          "Aug 03",
+          "Aug 10",
+          "Aug 17",
+          "Aug 24",
+          "Aug 31",
+          "Sep 07",
+          "Sep 14",
+          "Sep 18"
+        ],
+        "eventIndex": 6,
+        "annotation": "Industrial Materials (XLB) & Copper (HG=F) (XLB $49.99 | HG=F $6.69)",
+        "seriesA": {
+          "name": "Materials Select Sector ETF (XLB $)",
+          "unit": "$",
+          "color": "#e2ffa0",
+          "values": [
+            52.86,
+            52.54,
+            53.54,
+            53.18,
+            52.44,
+            50.95,
+            49.99,
+            49.99
+          ]
+        },
+        "seriesB": {
+          "name": "COMEX High-Grade Copper ($/lb)",
+          "unit": "$",
+          "color": "#38bdf8",
+          "values": [
+            6.57,
+            6.6,
+            6.58,
+            6.56,
+            6.6,
+            6.47,
+            6.61,
+            6.69
+          ]
+        }
+      },
+      "videoUrl15": "/cache/videos/rss-5-15s.mp4?v=1789884825866",
+      "audioUrl15": "/cache/audio/rss-5-15s.mp3?v=1789884825866"
+    }
+  },
+  "Auto & Transport Roundup: Market Talk": {
+    "thumbUrl": "/cache/images/thumb-rss-6.jpg?v=1789879852714",
+    "explainer": {
+      "id": "rss-6",
+      "inputHeadline": "Auto & Transport Roundup: Market Talk",
+      "videoUrl": "/cache/videos/rss-6-15s.mp4?v=1789884840880",
+      "audioUrl": "/cache/audio/rss-6-15s.mp3?v=1789884840880",
+      "sourceImageUrl": "/cache/images/thumb-rss-6.jpg?v=1789879852714",
+      "usedRssSourceImage": true,
+      "sourceImageCaption": "WSJ RSS Feed Image",
+      "ttsModelUsed": "ElevenLabs Turbo v2.5 (15s Post-Video Narration)",
+      "videoModelUsed": "Alternating Animated Still Images + Ken Burns Zoom-Ins (15s)",
+      "durationSec": 15,
+      "resolution": "1920x1080 (16:9 / 15.0s)",
+      "sourceType": "WSJ RSS Story",
+      "categoryBadge": "TRANSPORT LOGISTICS",
+      "sentiment": "YIELDS HIT 5%",
+      "sentimentScore": -0.4,
+      "headlineTitle": "Transport Stocks Face Pressure As Ten Year Treasury Yield Hits Five Percent",
+      "executiveThesis": "Rising capital costs create headwinds for capital-heavy transport operators including CSX and Magna International. Broader equity funds retreated one point five percent as borrowing benchmarks climbed.",
+      "narrationScript": "Wall Street Journal Market Talk highlights North American rail operator CSX and commercial freight carriers adjusting fleet capacity amid shifting industrial shipment volumes. Logistics executives report tighter contract pricing across intermodal rail corridors and regional trucking routes.",
+      "scenes": [
+        {
+          "act": "PART 1 / THE STORY",
+          "title": "What Happened",
+          "overlayType": "CATALYST_CARD",
+          "prompt": "Freight train with CSX shipping containers moving through an industrial rail yard during golden hour, 35mm broadcast news photojournalism, realistic daylight, 4k."
+        },
+        {
+          "act": "PART 2 / THE DATA",
+          "title": "The Key Numbers",
+          "overlayType": "LIVE_CHART",
+          "prompt": "Trading desks displaying bond market yield curves and financial market tickers, clean interior documentary style, 4k."
+        },
+        {
+          "act": "PART 3 / IMPACT",
+          "title": "Why It Matters",
+          "overlayType": "ASSET_SCORECARD",
+          "prompt": "Logistics hub with commercial cargo aircraft and distribution trailers on tarmac, documentary broadcast camera angle, realistic lighting, 4k."
+        }
+      ],
+      "captions": [
+        {
+          "start": 0,
+          "end": 5,
+          "text": "CSX & NORTH AMERICAN RAIL CARRIERS ADJUST FLEET CAPACITY",
+          "highlight": "CSX"
+        },
+        {
+          "start": 5,
+          "end": 10,
+          "text": "INTERMODAL FREIGHT VOLUMES REPRICE ACROSS CORRIDORS",
+          "highlight": "INTERMODAL"
+        },
+        {
+          "start": 10,
+          "end": 15,
+          "text": "CARRIERS FOCUS ON OPERATING RATIO & CONTRACT RATES",
+          "highlight": "OPERATING RATIO"
+        }
+      ],
+      "followUps": [
+        {
+          "id": "fu-1",
+          "question": "How will higher debt financing rates affect railroad capital expenditure budgets?",
+          "badge": "Watch Next"
+        },
+        {
+          "id": "fu-2",
+          "question": "Are transport operators like Alaska Air able to pass higher costs to consumers?",
+          "badge": "Watch Next"
+        }
+      ],
+      "chartData": null,
+      "videoUrl15": "/cache/videos/rss-6-15s.mp4?v=1789884840880",
+      "audioUrl15": "/cache/audio/rss-6-15s.mp3?v=1789884840880"
+    }
+  },
+  "Financial Services Roundup: Market Talk": {
+    "thumbUrl": "/cache/images/thumb-rss-11.jpg?v=1789880012497",
+    "explainer": {
+      "id": "rss-11",
+      "inputHeadline": "Financial Services Roundup: Market Talk",
+      "videoUrl": "/cache/videos/rss-11-15s.mp4?v=1789884857788",
+      "audioUrl": "/cache/audio/rss-11-15s.mp3?v=1789884857788",
+      "sourceImageUrl": "/cache/images/thumb-rss-11.jpg?v=1789880012497",
+      "usedRssSourceImage": true,
+      "sourceImageCaption": "WSJ RSS Feed Image",
+      "ttsModelUsed": "ElevenLabs Turbo v2.5 (15s Post-Video Narration)",
+      "videoModelUsed": "Alternating Animated Still Images + Ken Burns Zoom-Ins (15s)",
+      "durationSec": 15,
+      "resolution": "1920x1080 (16:9 / 15.0s)",
+      "sourceType": "WSJ RSS Story",
+      "categoryBadge": "FINANCIAL SERVICES",
+      "sentiment": "YIELDS HIT 5%",
+      "sentimentScore": -0.8,
+      "headlineTitle": "Treasury Yields Touch Five Percent Squeezing Financial Services And Consumer Lenders",
+      "executiveThesis": "The benchmark ten year Treasury yield held at five percent as equity markets pulled back over the past two months. Elevated borrowing costs continue to shape loan demand and credit assessments across retail financial platforms.",
+      "narrationScript": "Wall Street Journal Financial Services Market Talk tracks consumer lenders SoFi and Experian as the Financial Select Sector SPDR ETF trades at 55.86 dollars. Among money-center banks, JPMorgan Chase shares stand at 349.67 dollars.",
+      "scenes": [
+        {
+          "act": "PART 1 / THE STORY",
+          "title": "Financials Under Pressure",
+          "overlayType": "CATALYST_CARD",
+          "prompt": "Realistic television news B-roll shot in natural daylight (35mm ENG broadcast camera, photojournalism, 4k) showing modern corporate banking headquarters and financial district street signs."
+        },
+        {
+          "act": "PART 2 / THE DATA",
+          "title": "Yield Curve Shift",
+          "overlayType": "LIVE_CHART",
+          "prompt": "Realistic documentary B-roll of institutional trading desks in natural light, 4k, with fixed income market analysts reviewing bond pricing screens."
+        },
+        {
+          "act": "PART 3 / IMPACT",
+          "title": "Credit Market Impact",
+          "overlayType": "ASSET_SCORECARD",
+          "prompt": "Realistic documentary B-roll showing the real-economy sector impact, 35mm ENG broadcast camera, 4k, capturing consumer banking offices and retail credit underwriting operations."
+        }
+      ],
+      "captions": [
+        {
+          "start": 0,
+          "end": 5,
+          "text": "FINANCIAL SELECT SECTOR SPDR (XLF) AT $55.86",
+          "highlight": "$55.86"
+        },
+        {
+          "start": 5,
+          "end": 10,
+          "text": "JPMORGAN CHASE & CO. (JPM) TRADES AT $349.67",
+          "highlight": "$349.67"
+        },
+        {
+          "start": 10,
+          "end": 15,
+          "text": "SOFI & EXPERIAN NAVIGATE CONSUMER CREDIT DEMAND",
+          "highlight": "CREDIT DEMAND"
+        }
+      ],
+      "followUps": [
+        {
+          "id": "fu-1",
+          "question": "How do five percent Treasury yields alter fintech origination models?",
+          "badge": "Watch Next"
+        },
+        {
+          "id": "fu-2",
+          "question": "Will credit reporting volumes slow further if rates remain elevated?",
+          "badge": "Watch Next"
+        }
+      ],
+      "chartData": {
+        "title": "Financial Select Sector SPDR (XLF $) vs. JPMorgan Chase & Co. (JPM $)",
+        "subtitle": "Verified 8-Week Series (XLF: $55.86 | JPM: $349.67)",
+        "xLabels": [
+          "Aug 03",
+          "Aug 10",
+          "Aug 17",
+          "Aug 24",
+          "Aug 31",
+          "Sep 07",
+          "Sep 14",
+          "Sep 18"
+        ],
+        "eventIndex": 6,
+        "annotation": "US Money-Center Banks & Financials (XLF / JPM) (XLF $55.86 | JPM $349.67)",
+        "seriesA": {
+          "name": "Financial Select Sector SPDR (XLF $)",
+          "unit": "$",
+          "color": "#e2ffa0",
+          "values": [
+            57.6,
+            58.16,
+            57.48,
+            58.1,
+            58.1,
+            57.25,
+            55.86,
+            55.86
+          ]
+        },
+        "seriesB": {
+          "name": "JPMorgan Chase & Co. (JPM $)",
+          "unit": "$",
+          "color": "#38bdf8",
+          "values": [
+            357.52,
+            362.84,
+            351.58,
+            357.62,
+            358.64,
+            356.23,
+            349.67,
+            349.67
+          ]
+        }
+      },
+      "videoUrl15": "/cache/videos/rss-11-15s.mp4?v=1789884857788",
+      "audioUrl15": "/cache/audio/rss-11-15s.mp3?v=1789884857788"
+    }
+  },
+  "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek": {
+    "thumbUrl": "/cache/images/thumb-rss-8.jpg?v=1789879934062",
+    "explainer": {
+      "id": "rss-8",
+      "inputHeadline": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "videoUrl": "/cache/videos/rss-8-15s.mp4?v=1789884873440",
+      "audioUrl": "/cache/audio/rss-8-15s.mp3?v=1789884873440",
+      "sourceImageUrl": "/cache/images/thumb-rss-8.jpg?v=1789879934062",
+      "usedRssSourceImage": true,
+      "sourceImageCaption": "WSJ RSS Feed Image",
+      "ttsModelUsed": "ElevenLabs Turbo v2.5 (15s Post-Video Narration)",
+      "videoModelUsed": "Alternating Animated Still Images + Ken Burns Zoom-Ins (15s)",
+      "durationSec": 15,
+      "resolution": "1920x1080 (16:9 / 15.0s)",
+      "sourceType": "WSJ RSS Story",
+      "categoryBadge": "TECH ROUT",
+      "sentiment": "NVIDIA DOWN 16%",
+      "sentimentScore": -1.8,
+      "headlineTitle": "DeepSeek Sparks Hardware Rout as Nvidia Sinks Sixteen Percent on Nasdaq",
+      "executiveThesis": "China's DeepSeek ignited a major technology selloff, sending shares of Nvidia down sixteen percent in broad trading declines. The abrupt plunge forces market participants to re-evaluate artificial intelligence infrastructure spending and hardware valuations.",
+      "narrationScript": "China's DeepSeek triggered a broad semiconductor repricing across the Nasdaq, leaving Nvidia AI accelerator shares at 222.27 dollars. Across the wider chip complex, the iShares Semiconductor ETF settled at 533.07 dollars.",
+      "scenes": [
+        {
+          "act": "PART 1 / THE STORY",
+          "title": "What Happened",
+          "overlayType": "CATALYST_CARD",
+          "prompt": "Realistic television news B-roll shot in natural daylight showing an electronic Nasdaq ticker board reflecting sharp downward numbers, 35mm ENG broadcast camera, photojournalism, 4k."
+        },
+        {
+          "act": "PART 2 / THE DATA",
+          "title": "The Key Numbers",
+          "overlayType": "LIVE_CHART",
+          "prompt": "Realistic documentary B-roll of institutional trading desks with monitors displaying market selloff red charts in natural light, 4k."
+        },
+        {
+          "act": "PART 3 / IMPACT",
+          "title": "Why It Matters",
+          "overlayType": "ASSET_SCORECARD",
+          "prompt": "Realistic documentary B-roll showing semiconductor cleanrooms and advanced computer server racks in operation, 35mm ENG broadcast camera, 4k."
+        }
+      ],
+      "captions": [
+        {
+          "start": 0,
+          "end": 5,
+          "text": "CHINA DEEPSEEK SPARKS BROAD AI HARDWARE REPRICING",
+          "highlight": "DEEPSEEK"
+        },
+        {
+          "start": 5,
+          "end": 10,
+          "text": "NVIDIA AI ACCELERATORS (NVDA) AT $222.27",
+          "highlight": "$222.27"
+        },
+        {
+          "start": 10,
+          "end": 15,
+          "text": "ISHARES SEMICONDUCTOR ETF (SOXX) AT $533.07",
+          "highlight": "$533.07"
+        }
+      ],
+      "followUps": [
+        {
+          "id": "fu-1",
+          "question": "How does DeepSeek's model affect chip compute demand?",
+          "badge": "Watch Next"
+        },
+        {
+          "id": "fu-2",
+          "question": "Will enterprise software decouple from hardware declines?",
+          "badge": "Watch Next"
+        }
+      ],
+      "chartData": {
+        "title": "NVIDIA AI Accelerators (NVDA $) vs. iShares Semiconductor ETF (SOXX $)",
+        "subtitle": "Verified 8-Week Series (NVDA: $222.27 | SOXX: $533.07)",
+        "xLabels": [
+          "Aug 03",
+          "Aug 10",
+          "Aug 17",
+          "Aug 24",
+          "Aug 31",
+          "Sep 07",
+          "Sep 14",
+          "Sep 18"
+        ],
+        "eventIndex": 6,
+        "annotation": "AI Semiconductor Repricing (NVDA & SOXX) (NVDA $222.27 | SOXX $533.07)",
+        "seriesA": {
+          "name": "NVIDIA AI Accelerators (NVDA $)",
+          "unit": "$",
+          "color": "#e2ffa0",
+          "values": [
+            223.96,
+            225.16,
+            214.72,
+            217.55,
+            230.36,
+            218.29,
+            222.27,
+            222.27
+          ]
+        },
+        "seriesB": {
+          "name": "iShares Semiconductor ETF (SOXX $)",
+          "unit": "$",
+          "color": "#38bdf8",
+          "values": [
+            543.27,
+            550.42,
+            520.05,
+            508.62,
+            519.86,
+            527.07,
+            533.07,
+            533.07
+          ]
+        }
+      },
+      "videoUrl15": "/cache/videos/rss-8-15s.mp4?v=1789884873440",
+      "audioUrl15": "/cache/audio/rss-8-15s.mp3?v=1789884873440"
+    }
+  },
+  "Comex Gold, Silver Settle Lower": {
+    "thumbUrl": "/cache/images/thumb-rss-9.jpg?v=1789879938334",
+    "explainer": {
+      "id": "rss-9",
+      "inputHeadline": "Comex Gold, Silver Settle Lower",
+      "videoUrl": "/cache/videos/rss-9-15s.mp4?v=1789884888817",
+      "audioUrl": "/cache/audio/rss-9-15s.mp3?v=1789884888817",
+      "sourceImageUrl": "/cache/images/thumb-rss-9.jpg?v=1789879938334",
+      "usedRssSourceImage": true,
+      "sourceImageCaption": "WSJ RSS Feed Image",
+      "ttsModelUsed": "ElevenLabs Turbo v2.5 (15s Post-Video Narration)",
+      "videoModelUsed": "Alternating Animated Still Images + Ken Burns Zoom-Ins (15s)",
+      "durationSec": 15,
+      "resolution": "1920x1080 (16:9 / 15.0s)",
+      "sourceType": "WSJ RSS Story",
+      "categoryBadge": "COMMODITIES DESK",
+      "sentiment": "METALS RETREAT",
+      "sentimentScore": -1.4,
+      "headlineTitle": "Comex Gold Falls 1.4 Percent and Silver Sinks 2.5 Percent",
+      "executiveThesis": "Gold settled one point four percent lower while silver dropped two point five percent on the Comex. Elevated bond yields reduce the competitive yield appeal of non-yielding physical precious metals.",
+      "narrationScript": "Precious metals pulled back on the New York Mercantile Exchange as COMEX Gold futures settled at 4424.9 dollars per troy ounce. Alongside bullion, COMEX Silver futures closed lower at 67.15 dollars per ounce.",
+      "scenes": [
+        {
+          "act": "PART 1 / THE STORY",
+          "title": "What Happened",
+          "overlayType": "CATALYST_CARD",
+          "prompt": "Realistic television news B-roll shot in natural daylight showing gold bullion bars on a secure trading vault floor, 35mm ENG broadcast camera, photojournalism, 4k."
+        },
+        {
+          "act": "PART 2 / THE DATA",
+          "title": "The Key Numbers",
+          "overlayType": "LIVE_CHART",
+          "prompt": "Realistic documentary B-roll of institutional commodities trading desks with analytical price monitors in natural office light, 4k."
+        },
+        {
+          "act": "PART 3 / IMPACT",
+          "title": "Why It Matters",
+          "overlayType": "ASSET_SCORECARD",
+          "prompt": "Realistic documentary B-roll showing precious metals storage and vault logistics operations under industrial lighting, 35mm ENG broadcast camera, 4k."
+        }
+      ],
+      "captions": [
+        {
+          "start": 0,
+          "end": 5,
+          "text": "COMEX GOLD FUTURES (GC=F) SETTLE AT $4424.9/OZ",
+          "highlight": "$4424.9"
+        },
+        {
+          "start": 5,
+          "end": 10,
+          "text": "COMEX SILVER FUTURES (SI=F) CLOSE AT $67.15/OZ",
+          "highlight": "$67.15"
+        },
+        {
+          "start": 10,
+          "end": 15,
+          "text": "BULLION & SILVER CONSOLIDATE AFTER RECORD RUN",
+          "highlight": "BULLION"
+        }
+      ],
+      "followUps": [
+        {
+          "id": "fu-1",
+          "question": "How do higher Treasury yields pressure physical gold demand?",
+          "badge": "Watch Next"
+        },
+        {
+          "id": "fu-2",
+          "question": "Will industrial silver demand offset recent price declines?",
+          "badge": "Watch Next"
+        }
+      ],
+      "chartData": {
+        "title": "COMEX Gold Futures ($/oz) vs. COMEX Silver Futures ($/oz)",
+        "subtitle": "Verified 8-Week Series (GC=F: $4424.9 | SI=F: $67.15)",
+        "xLabels": [
+          "Aug 03",
+          "Aug 10",
+          "Aug 17",
+          "Aug 24",
+          "Aug 31",
+          "Sep 07",
+          "Sep 14",
+          "Sep 18"
+        ],
+        "eventIndex": 6,
+        "annotation": "COMEX Gold & Silver Futures Settlement (GC=F $4424.9 | SI=F $67.15)",
+        "seriesA": {
+          "name": "COMEX Gold Futures ($/oz)",
+          "unit": "$",
+          "color": "#e2ffa0",
+          "values": [
+            4399.7,
+            4437.3,
+            4680.6,
+            4529.9,
+            4476.6,
+            4408.9,
+            4424.9,
+            4424.9
+          ]
+        },
+        "seriesB": {
+          "name": "COMEX Silver Futures ($/oz)",
+          "unit": "$",
+          "color": "#38bdf8",
+          "values": [
+            63.33,
+            64.99,
+            69.47,
+            67,
+            66.05,
+            64.55,
+            66.56,
+            67.15
+          ]
+        }
+      },
+      "videoUrl15": "/cache/videos/rss-9-15s.mp4?v=1789884888817",
+      "audioUrl15": "/cache/audio/rss-9-15s.mp3?v=1789884888817"
+    }
+  },
+  "DeepSeek Won't Sink U.S. AI Titans": {
+    "thumbUrl": "/cache/images/thumb-rss-10.jpg?v=1789880013460",
+    "explainer": {
+      "id": "rss-10",
+      "inputHeadline": "DeepSeek Won't Sink U.S. AI Titans",
+      "videoUrl": "/cache/videos/rss-10-15s.mp4?v=1789884910178",
+      "audioUrl": "/cache/audio/rss-10-15s.mp3?v=1789884910178",
+      "sourceImageUrl": "/cache/images/thumb-rss-10.jpg?v=1789880013460",
+      "usedRssSourceImage": true,
+      "sourceImageCaption": "WSJ RSS Feed Image",
+      "ttsModelUsed": "ElevenLabs Turbo v2.5 (15s Post-Video Narration)",
+      "videoModelUsed": "Alternating Animated Still Images + Ken Burns Zoom-Ins (15s)",
+      "durationSec": 15,
+      "resolution": "1920x1080 (16:9 / 15.0s)",
+      "sourceType": "WSJ RSS Story",
+      "categoryBadge": "SEMICONDUCTOR MARKETS",
+      "sentiment": "NVDA DOWN 0.8%",
+      "sentimentScore": 0.45,
+      "headlineTitle": "Wall Street Journal Rebuffs DeepSeek Panic as Nvidia Holds Near 222 Dollars",
+      "executiveThesis": "Fears that low-cost Chinese artificial intelligence models would derail American hardware giants appear overstated. Hardware and enterprise software valuations remain durable as enterprise capital expenditure plans stay intact.",
+      "narrationScript": "Wall Street Journal analysis finds United States hyperscale artificial intelligence leaders resilient despite DeepSeek competition. Microsoft AI Cloud shares trade at 493.78 dollars while Meta Platforms hyperscale AI sits at 665.75 dollars.",
+      "scenes": [
+        {
+          "act": "PART 1 / THE STORY",
+          "title": "What Happened",
+          "overlayType": "CATALYST_CARD",
+          "prompt": "Broadcast television news footage of semiconductor fabrication server racks and Silicon Valley corporate offices in bright daylight, photojournalism style, 4k."
+        },
+        {
+          "act": "PART 2 / THE DATA",
+          "title": "The Key Numbers",
+          "overlayType": "LIVE_CHART",
+          "prompt": "Trading desks at a major financial institution with multiple trading monitors displaying pricing metrics in natural overhead light, documentary 4k."
+        },
+        {
+          "act": "PART 3 / IMPACT",
+          "title": "Why It Matters",
+          "overlayType": "ASSET_SCORECARD",
+          "prompt": "An engineer walking through an enterprise datacenter facility inspects humming server cabinets in crisp natural lighting, broadcast camera 4k."
+        }
+      ],
+      "captions": [
+        {
+          "start": 0,
+          "end": 5,
+          "text": "US AI HYPERSCALERS MAINTAIN INFRASTRUCTURE LEAD",
+          "highlight": "HYPERSCALERS"
+        },
+        {
+          "start": 5,
+          "end": 10,
+          "text": "MICROSOFT AI CLOUD (MSFT) TRADES AT $493.78",
+          "highlight": "$493.78"
+        },
+        {
+          "start": 10,
+          "end": 15,
+          "text": "META HYPERSCALE AI (META) STANDS AT $665.75",
+          "highlight": "$665.75"
+        }
+      ],
+      "followUps": [
+        {
+          "id": "fu-1",
+          "question": "Will hyperscaler chip procurement slow down this quarter?",
+          "badge": "Watch Next"
+        },
+        {
+          "id": "fu-2",
+          "question": "How are custom silicon alternatives pricing against flagship GPUs?",
+          "badge": "Watch Next"
+        }
+      ],
+      "chartData": {
+        "title": "Microsoft AI Cloud (MSFT $) vs. Meta Hyperscale AI (META $)",
+        "subtitle": "Verified 8-Week Series (MSFT: $493.78 | META: $665.75)",
+        "xLabels": [
+          "Aug 03",
+          "Aug 10",
+          "Aug 17",
+          "Aug 24",
+          "Aug 31",
+          "Sep 07",
+          "Sep 14",
+          "Sep 18"
+        ],
+        "eventIndex": 6,
+        "annotation": "US Hyperscaler CapEx Resilience (MSFT & META) (MSFT $493.78 | META $665.75)",
+        "seriesA": {
+          "name": "Microsoft AI Cloud (MSFT $)",
+          "unit": "$",
+          "color": "#e2ffa0",
+          "values": [
+            499.99,
+            495.4,
+            483.24,
+            513.53,
+            499.7,
+            495.63,
+            493.78,
+            493.78
+          ]
+        },
+        "seriesB": {
+          "name": "Meta Hyperscale AI (META $)",
+          "unit": "$",
+          "color": "#38bdf8",
+          "values": [
+            592.1,
+            589.85,
+            549.9,
+            578.02,
+            616.77,
+            648.03,
+            665.75,
+            665.75
+          ]
+        }
+      },
+      "videoUrl15": "/cache/videos/rss-10-15s.mp4?v=1789884910178",
+      "audioUrl15": "/cache/audio/rss-10-15s.mp3?v=1789884910178"
+    }
+  }
+}

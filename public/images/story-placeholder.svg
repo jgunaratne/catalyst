@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" width="320" height="180" role="img" aria-label="No wire photo available">
+  <!-- Neutral placeholder for wire stories that ship without artwork. Deliberately abstract:
+       a real photograph of an unrelated subject would mislead the viewer about the story. -->
+  <rect width="320" height="180" fill="#141311"/>
+  <g stroke="rgba(246,237,224,0.07)" stroke-width="1">
+    <path d="M0 45h320M0 90h320M0 135h320M80 0v180M160 0v180M240 0v180"/>
+  </g>
+  <g stroke="rgba(226,255,160,0.30)" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="36,124 76,104 116,116 156,74 196,88 236,56 284,68"/>
+  </g>
+  <g fill="rgba(226,255,160,0.30)">
+    <circle cx="156" cy="74" r="3.5"/>
+    <circle cx="236" cy="56" r="3.5"/>
+  </g>
+  <rect x="24" y="24" width="34" height="4" rx="2" fill="rgba(246,237,224,0.28)"/>
+</svg>

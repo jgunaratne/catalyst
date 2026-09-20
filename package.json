@@ -1,0 +1,20 @@
+{
+  "name": "catalyst",
+  "version": "1.0.0",
+  "description": "Catalyst — Short-form financial news video studio: real wire stories, real market data, generated picture and voiceover.",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "check": "npm run check:server && npm run check:scopes && npm run check:narration",
+    "check:server": "node --check server.js && for f in src/**/*.js; do node --check \"$f\" || exit 1; done",
+    "check:scopes": "node scripts/checkModuleScopes.mjs",
+    "check:playback": "node scripts/checkPlayback.mjs",
+    "check:narration": "node scripts/checkNarrationLength.mjs",
+    "rebuild:clips": "node scripts/syncAll18VideosVoiceoverAndChart.js"
+  },
+  "dependencies": {}
+}
