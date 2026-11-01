@@ -65,7 +65,7 @@ function downloadFile(remoteUrl, destPath) {
   }
   return new Promise((resolve, reject) => {
     const client = remoteUrl.startsWith('https') ? https : http;
-    client.get(remoteUrl, { headers: { 'User-Agent': 'CatalystVideoBot/1.0 (junius@google.com)' }, timeout: 25000 }, (res) => {
+    client.get(remoteUrl, { headers: { 'User-Agent': 'CatalystVideoBot/1.0 (+https://github.com/jgunaratne/catalyst)' }, timeout: 25000 }, (res) => {
       if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
         return downloadFile(res.headers.location, destPath).then(resolve).catch(reject);
       }
