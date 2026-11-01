@@ -22,3 +22,8 @@ cache/**/story*
 cache/**/source-*
 cache/**/gemini-*
 cache/**/veo-*
+
+# Generated media (built from third-party news photos); regenerate with npm run rebuild:clips:all
+cache/videos/
+cache/images/
+public/images/source-*
